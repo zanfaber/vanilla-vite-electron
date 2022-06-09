@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "electron": "^19.0.4",
     "vite": "^2.9.9"
   }
 }
