@@ -1,13 +1,16 @@
 {
   "name": "vanilla-vite-electron",
   "private": true,
+  "author": "zanfaber",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "electron:start": "electron ."
   },
   "devDependencies": {
+    "electron": "^19.0.4",
     "vite": "^2.9.9"
   }
 }
